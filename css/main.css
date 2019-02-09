@@ -466,7 +466,7 @@ font-size: 14px;
 	margin-top: 80px;
 }
 #projects p{
-	font-size: 18px;
+	font-size: 25px;
 	color: #266052;
 }
 #program{
@@ -474,17 +474,17 @@ font-size: 14px;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 3px #658e1c;
 	padding-bottom: 40px;
 	padding-left: 10px;
-	height: 150px;
+	height: 500px;
 
 }
 
 #salmon p{
-color: #297c68;
+color: #1c638e;
 display: row;
-font-size: 18px;
+font-size: 20px;
 }
 
 #salmon{
@@ -500,15 +500,15 @@ font-size: 18px;
 
 }
 #trout p{
-color: #297c68;
+color: #1c638e;
 display: row;
-font-size: 18px;
+font-size: 26px;
 	 
 }
 
 #trout{
-	width: 430px;
-	height: 220px;
+	width: 500px;
+	height: 346px;
 	display: inline-block;
 }
 
@@ -820,4 +820,193 @@ display: row;
 	width: 1020px;
 	height: 280px;
 	display: inline-block;
+}
+#link1 h2{
+	margin-top: 80px;
+	margin-left: 460px;
+	font-size: 30px;
+	color: green;
+}
+#linkpic{
+	margin-top: 40px;
+	display: flex;
+	border-bottom: solid 3px #658e1c;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 310px;
+}
+
+#linkpic img{
+	width: 1060px;
+	margin-left: 0px;
+	height: 300px;
+}
+#link2 p{
+	margin-left: 20px;
+
+	font-size: 20px;
+	color: #517251;
+}
+
+#link3 h2{
+	margin-top: 80px;
+	margin-left:230px;
+	font-size: 30px;
+	color: green;
+}
+#linkpic1{
+	margin-top: 40px;
+	display: flex;
+	border-bottom: solid 3px #658e1c;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 410px;
+}
+
+#linkpic1 img{
+	width: 1060px;
+	margin-left: 0px;
+	height: 400px;
+}
+
+#link4 p{
+	margin-left: 20px;
+
+	font-size: 31px;
+	color: #b2aa1f;
+}
+
+#link5 h2{
+	margin-top: 86px;
+	margin-left:360px;
+	font-size: 30px;
+	color: green;
+}
+
+#linkpic2{
+	margin-top: 40px;
+	display: flex;
+	border-bottom: solid 3px #658e1c;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 410px;
+}
+
+#linkpic2 img{
+	width: 1060px;
+	margin-left: 0px;
+	height: 400px;
+}
+
+#link6 p{
+	margin-left: 20px;
+
+	font-size: 25px;
+	color: #085e08;
+}
+
+#link7 h2{
+	margin-top: 80px;
+	margin-left: 460px;
+	font-size: 30px;
+	color: green;
+}
+#linkpic3{
+	margin-top: 40px;
+	display: flex;
+	border-bottom: solid 3px #658e1c;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 410px;
+}
+
+#linkpic3 img{
+	width: 1060px;
+	margin-left: 0px;
+	height: 400px;
+}
+
+#note p{
+	margin-left: 20px;
+
+	font-size: 36px;
+	color: #085e08;
+}
+
+#note p1{
+	margin-left: 20px;
+
+	font-size: 28px;
+	color: #bec61a;
+}
+
+#new h2{
+	margin-top: 80px;
+	margin-left: 400px;
+	font-size: 30px;
+	color: grey;
+}
+#newpic{
+	margin-top: 40px;
+	border-bottom: solid 3px grey;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 450px;
+}
+
+#newpic img{
+	width: 1060px;
+	margin-left: 0px;
+	height: 400px;
+}
+#newpic h3{
+	width: 1060px;
+	margin-left: 10px;
+	font-size: 25px;
+	margin-left: 26px;
+	color: #567a69;
+}
+
+#date{
+	margin-top: 30px;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 700px;
+}
+
+#date img{
+
+	width: 1060px;
+	height: 390px ;
+	display: inline-block;
+}
+#date p{
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #0c7244;
+}
+
+#date2{
+	margin-top: 30px;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-right: 10px;
+	height: 700px;
+}
+
+#date2 img{
+
+	width: 1060px;
+	height: 390px ;
+	display: inline-block;
+}
+#date2 p{
+	margin-right: 10px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: #ddcf24;
 }
