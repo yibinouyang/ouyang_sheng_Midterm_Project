@@ -16,7 +16,7 @@ background-color: #e4f9e4;
 
 #topBar
 {
-	background-color: #7cb562;
+	background-color: #0a8c7c;
 	height: 80px;
 	color: #000000;
 }
@@ -33,7 +33,7 @@ background-color: #e4f9e4;
 #mainNav
 {
 	width: 2000px;
-	height: 30px;
+	height: 50px;
 	margin-top:5px;
 	margin-left: 100px;
 }
@@ -53,9 +53,9 @@ background-color: #e4f9e4;
 
 #mainNav ul li a
 {
-	color: white;
+	color: #fbffca;
 	padding: 15px;
-	background-color: #a1cc8d;
+	background-color: #6bb270;
 	font-size: 20px;
 }
 #body1
@@ -78,7 +78,6 @@ font-size: 15px;
 }
 
 #RodBuilding{
-	background-color: #d8fcd0;
 	width: 400px;
 	height: 500px;
 	display: inline-block;
@@ -97,7 +96,6 @@ font-size: 15px;
 	border:1px   width:40%; 
 	width: 630px;
 	height:500px;
-	background-color: #d8fcd0;
 
 }
 #text img{
@@ -337,35 +335,35 @@ color: #0000;
 	display: flex;
 	flex-direction: row;
   	justify-content: space-between;
-	border-bottom: solid 1px #DDD;
+	border-bottom: solid 3px #9bbcbc;
 	padding-bottom: 40px;
 	padding-left: 10px;
-	height: 150px;
+	height: 250px;
 }
 
 #part1 p{
 color: #0000;
 display: row;
-font-size: 13px;
+font-size: 16px;
+margin-top: 15px;
 }
 
 #part1{
 	width: 200px;
 	height: 220px;
 	display: inline-block;
-	background-color: #bbe27d;
+	background-color: #9bbcbc;
 }
 
 #part1 img{
-	width: 80%;
-	height: auto;
+	width: 200px;
+	height: 200px;
 	display: inline-block;
 
 }
 #part2 p{
 color: #0000;
 display: row;
-background-color: #bbe27d;
 	 
 }
 
@@ -374,15 +372,15 @@ background-color: #bbe27d;
 	width: 200px;
 	height: 220px;
 	display: inline-block;
-		background-color: #bbe27d;
+		background-color: #9bbcbc;
 }
 
 #part2 img{
-	width: 80%;
-	height: auto;
+	width: 200px;
+	height: 200px;
 	display: inline-block;
-}
-#part3 p{
+
+}#part3 p{
 color: #0000;
 display: row;
 	 
@@ -393,12 +391,12 @@ display: row;
 	width: 200px;
 	height: 220px;
 	display: inline-block;
-		background-color: #bbe27d;
+		background-color: #9bbcbc;
 }
 
 #part3 img{
-	width: 80%;
-	height: auto;
+	width: 200px;
+	height: 200px;
 	display: inline-block;
 
 }
@@ -415,12 +413,12 @@ font-size: 14px;
 	width: 200px;
 	height: 220px;
 	display: inline-block;
-		background-color: #bbe27d;
+		background-color: #9bbcbc;
 }
 
 #part4 img{
-	width: 80%;
-	height: auto;
+	width: 200px;
+	height: 200px;
 	display: inline-block;
 
 }
@@ -434,7 +432,7 @@ font-size: 14px;
 }
 
 #part5{
-	background-color: #bbe27d;
+	background-color: #9bbcbc;
 	width: 200px;
 	height: 220px;
 	display: inline-block;
@@ -443,8 +441,8 @@ font-size: 14px;
 }
 
 #part5 img{
-	width: 40%;
-	height: auto;
+	width: 200px;
+	height: 200px;
 	display: inline-block;
 
 
@@ -1009,4 +1007,101 @@ display: row;
 	margin-top: 10px;
 	font-size: 20px;
 	color: #ddcf24;
+}
+
+#chart1 {
+	margin-top: 40px;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  	justify-content: flex-start;
+}
+
+#chart1 
+
+input, textarea
+{
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 10px;
+	width: 400px;
+	height: 10px;
+	background-color: #fff;
+	border: 2px solid #999;
+	font-size: 10px;
+}
+#chart1 img{
+	margin-left: 30px
+	width: 550px;
+	margin-top: 10px;
+	height: 400px;
+	padding-left: 60px;
+}
+
+#map
+{
+	margin-top: 20px;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 430px;
+}
+
+#map p{
+color: #189b75;
+display: row;
+font-size: 25px;
+margin-left: 438px;
+}
+
+
+#map img{
+	width: 600px;
+	height: 300px;
+	margin-left: 260px;
+
+}
+
+#map p1{
+color: #385615;
+display: row;
+font-size: 17px;
+}
+
+#social{
+	margin-top: 100px;
+	display: flex;
+  	justify-content: space-between;
+	border-bottom: solid 1px #DDD;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 250px;
+}
+
+#social img{
+
+	width: 80px;
+	height: 80px;
+	display: table-row;
+}
+#social p{
+	margin-top: 30px;
+	display: table-row;
+	font-size: 20px
+}
+
+#talk{
+	width: 1080px;
+	height: 360px;
+	margin-top: 20px;
+	margin-left: 10px;
+
+}
+
+#talk img{
+	width: 1060px;
+	height: 300px;
 }
