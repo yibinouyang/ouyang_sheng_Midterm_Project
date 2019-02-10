@@ -53,11 +53,25 @@ background-color: #e4f9e4;
 
 #mainNav ul li a
 {
+	font-family: 'Indie Flower', cursive;
 	color: #fbffca;
 	padding: 15px;
 	background-color: #6bb270;
 	font-size: 20px;
 }
+
+
+#mainNav ul li a:hover{
+	background: rgb(226,29,22);
+	background: -moz-linear-gradient(top, rgba(226,29,22,1) 0%, rgba(170,8,3,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(226,29,22,1)), color-stop(100%,rgba(170,8,3,1)));
+	background: -webkit-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: -o-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: -ms-linear-gradient(top, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	background: linear-gradient(to bottom, rgba(226,29,22,1) 0%,rgba(170,8,3,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7ff766', endColorstr='#7ff766',GradientType=0 );
+}
+
 #body1
 {
 	margin-top: 40px;
@@ -74,6 +88,7 @@ background-color: #e4f9e4;
 color: #0000;
 display: row;
 font-size: 15px;
+font-family: 'Indie Flower', cursive;
 	 
 }
 
@@ -105,6 +120,7 @@ font-size: 15px;
 
 #text p{
 	font-size: 15px;
+	font-family: 'Indie Flower', cursive;
 }
 
 #Businesses h2{
@@ -121,6 +137,7 @@ font-size: 15px;
 	padding-bottom: 40px;
 	padding-left: 10px;
 	height: 150px;
+	font-family: 'Indie Flower', cursive;
 }
 
 #party img{
@@ -132,7 +149,7 @@ font-size: 15px;
 #party p{
 
 	display: inline-block;
-	font-size: 20px
+	font-size: 20px;
 }
 #party p1{
 	margin-top: 20px;
@@ -147,7 +164,9 @@ font-size: 15px;
 	border-bottom: solid 1px #DDD;
 	padding-bottom: 40px;
 	padding-left: 10px;
-	height: 150px;
+	height: 150px;	
+	font-family: 'Indie Flower', cursive;
+
 }
 
 #Gear img{
@@ -165,6 +184,7 @@ font-size: 15px;
 	margin-top: 30px;
 	display: inline-block;
 	font-size: 20px;
+
 }
 
 #line1{
@@ -242,6 +262,7 @@ display: flex;
 color: #0000;
 display: row;
 font-size: 20px;
+font-family: 'Poiret One', cursive;
 }
 
 #exe h2{
@@ -267,6 +288,7 @@ font-size: 25px;
 color: #0000;
 display: row;
 font-size: 20px;
+font-family: 'Poiret One', cursive;
 }
 
 #cha{
@@ -289,6 +311,7 @@ font-size: 20px;
 #About p{
 	color: #ddda50;
 	font-size: 20px;
+	font-family: 'Poiret One', cursive;
 }
 #word p{
 	color: #7c7c31;
@@ -346,6 +369,7 @@ color: #0000;
 display: row;
 font-size: 16px;
 margin-top: 15px;
+font-family: 'Poiret One', cursive;
 }
 
 #part1{
@@ -364,6 +388,7 @@ margin-top: 15px;
 #part2 p{
 color: #0000;
 display: row;
+font-family: 'Poiret One', cursive;
 	 
 }
 
@@ -383,6 +408,7 @@ display: row;
 }#part3 p{
 color: #0000;
 display: row;
+font-family: 'Poiret One', cursive;
 	 
 }
 
@@ -404,6 +430,7 @@ display: row;
 color: #0000;
 display: row;
 font-size: 14px;
+font-family: 'Poiret One', cursive;
 
 	 
 }
@@ -426,6 +453,7 @@ font-size: 14px;
 color: #0000;
 display: row;
 font-size: 14px;
+font-family: 'Poiret One', cursive;
 
 
 	 
@@ -851,6 +879,7 @@ display: row;
 	margin-left:230px;
 	font-size: 30px;
 	color: green;
+	font-family: 'Poiret One', cursive;
 }
 #linkpic1{
 	margin-top: 40px;
