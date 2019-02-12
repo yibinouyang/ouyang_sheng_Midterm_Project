@@ -28,6 +28,19 @@ background-color: #e4f9e4;
 	font-size: 18px;
 	padding-bottom: 15px;
 }
+#topBar img{
+	width: 70px;
+	height: 70px;
+}
+
+#logo:hover {
+	transform:rotateY(180deg);
+	-webkit-transform:rotateY(180deg);	
+	-moz-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+
+}
 
 
 #mainNav
@@ -108,7 +121,7 @@ font-family: 'Indie Flower', cursive;
 
 #text {
 	float:left;
-	border:1px   width:40%; 
+	border:1px;  width:40%; 
 	width: 630px;
 	height:500px;
 
@@ -302,14 +315,14 @@ font-family: 'Poiret One', cursive;
 #About{
 	width: 1070px;
 	height: 300px;
-	background-color: #c3e0e0;
+	background-color: #d4efbf;
 	padding-left: 10px;
 	margin-top: 50px;
 
 }
 
 #About p{
-	color: #ddda50;
+	color: #000;
 	font-size: 20px;
 	font-family: 'Poiret One', cursive;
 }
@@ -346,7 +359,7 @@ color: #0000;
 
 #text2 {
 	float:left;
-	border:1px   width:40%; 
+	border:1px;   width:40%; 
 	width: 630px;
 	height:300px;
 	background-color: white;
@@ -1133,4 +1146,33 @@ font-size: 17px;
 #talk img{
 	width: 1060px;
 	height: 300px;
+}
+
+#chart1{
+	margin-top: 30px;
+	display: flex;
+  	justify-content: space-between;
+	border-bottom: solid 3px #DDD;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 310px;
+}
+#chart1 img{
+	width: 300px;
+	height: 280px;
+	display: table-row;
+}
+#chart2{
+	margin-top: 30px;
+	display: flex;
+  	justify-content: space-between;
+	border-bottom: solid 3px #DDD;
+	padding-bottom: 40px;
+	padding-left: 10px;
+	height: 310px;
+}
+#chart2 img{
+	width: 300px;
+	height: 280px;
+	display: table-row;
 }
